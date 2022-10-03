@@ -9,7 +9,7 @@ numbers = [1, 2, 3, 4, 5]
 loop_range = 5
 
 for number in range(5):
-    timer = random.random()
+    timer = random.randint(1, 10)
     time.sleep(timer)
 
     right_this_minute = datetime.today().minute
