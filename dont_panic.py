@@ -15,3 +15,5 @@ plist.insert(2, plist.pop(3))
 new_phrase = ''.join(plist)
 print(plist)
 print(new_phrase)
+
+print('some changes have been made')
